@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marisol & Miguel - 25 Aniversario</title>
+    <link rel="stylesheet" href="css/bootstrap-5.1.3/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="./assets/icons/anillos.png"/>
+</head>
+<body>
+    <!-- NAV-BAR -->
+    <header class="encabezado">
+        <nav id="nav" class="shadow navbar fixed-top navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <h2 class="item-title">Marisol y Miguel</h2>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li id="navItem1" class="nav-item item text-center">INICIO<span><img class="nav-icon" src="./assets/images/corazon.png" alt="heart"></span></li>
+                        <li id="navItem2" class="nav-item item text-center">¿DÓNDE Y CUÁNDO?<span><img class="nav-icon" src="./assets/images/corazon.png" alt="heart"></span></li>
+                        <li id="navItem4" class="nav-item item text-center">NOSOTROS<span><img class="nav-icon" src="./assets/images/corazon.png" alt="heart"></span></li>
+                        <li id="navItem3" class="nav-item item text-center">CONFIRMAR ASISTENCIA<span><img class="nav-icon" src="./assets/images/corazon.png" alt="heart"></span></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- END NAV-BAR -->
+    <!-- FOTOGRAFIA PRINCIPAL -->
+    <section id="main-photo">
+        <div class="row m-auto">
+            <div class="col-12 col-sm-4 col-md-5 p-3 text-center">
+                <img class="photo1 w-75" src="./assets/images/boda2.jpg" alt="Boda1">
+            </div>
+            <div class="col-8 col-sm-3 col-md-2 card-style m-auto text-center shadow-lg bg-white rounded">
+                <p class="h1" style="font-family: 'Great Vibes';">25 Aniversario</p>
+            </div>
+            <div class="col-12 col-sm-4 col-md-5 p-3 text-center">
+                <img class="photo1 w-75" src="./assets/images/boda1.png" alt="Boda1">
+            </div>
+        </div>
+    </section>
+    <!-- FIN FOTOGRAFIA PRINCIPAL -->
+    
+    <!-- BANNER FRASE -->
+    <section class="banner-phrase">
+        <div class="phrase-box text-center align-self-end">
+            Faltan:<p id="cuenta"></p>
+        </div>
+    </section>
+    <!-- FIN BANNER FRASE -->
+        <!-- INFO SECTION -->
+    <section id="where-section" class="where-style container">
+        <div class="vibes-font text-center">
+            <h1 style="font-size: 50px;">¿Dónde y Cuándo?</h1>
+            <h3>22 Abril 2022</h3>
+        </div>
+        <div id="cards-when-where" class="row m-auto">
+            <div class="col-sm-5 m-auto mt-4">
+                <div class="card montserrat-font">
+                    <div class="card-header card-margin">CEREMONIA RELIGIOSA</div>
+                    <img src="./assets/images/iglesia.png" class="card-img-top" alt="iglesia">
+                    <div class="card-body card-margin">
+                        <h5 class="card-title">PARROQUIA DEL ESPIRITU SANTO</h5>
+                        <p class="card-text">Cuándo: 22 de abril de 2022 18:45 hrs.</p>
+                        <p class="card-text">Dirección: Bosques de España #31 D Fracc. Bosques de Aragón, Nezahualcóyotl, Edo. México; México</p>
+                        <button id="mapa1" data-bs-toggle="modal" data-bs-target="#modalMaps1" class="btn btn-wedding" style="width: 100%;">Ver mapa</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5 m-auto mt-4">
+                <div class="card montserrat-font">
+                    <div class="card-header card-margin">SALÓN</div>
+                    <img src="./assets/images/salon.jpeg" class="card-img-top" alt="salon">
+                    <div class="card-body card-margin">
+                        <h5 class="card-title">SALÓN TERRAZA "MIRAGE"</h5>
+                        <p class="card-text">Cuándo: 22 de abril de 2022 20:30 hrs.</p>
+                        <p class="card-text">Dirección: Bosques de los Continentes #4, Bosques de Aragón, Nezahualcóyotl, Edo. México; México</p>
+                        <button id="mapa2" data-bs-toggle="modal" data-bs-target="#modalMaps1" class="btn btn-wedding" style="width: 100%;">Ver mapa</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="dress" class="row m-auto mt-5">
+            <div class="col-auto text-center">
+                <h1 class="vibes-font" style="font-size: 40px;">Dress Code</h1>
+                <img src="./assets/images/dresscode.jpeg" alt="dresscode" class="img-fluid" style="width: 140px;">
+                <h6 class="montserrat-font">Formal</h6>
+            </div>
+        </div>
+    </section>
+    <!-- END INFO SECTION -->
+    <!-- NOSOTROS SECTION -->
+    <section id="nosotros" class="where-style container-fluid mt-5">
+        <div class="row m-auto">
+            <h1 class="vibes-font text-center" style="font-size: 50px;">Nosotros</h1>
+            <!-- CARRUSEL -->
+            <div id="carouselMM" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselMM" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselMM" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselMM" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselMM" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/images/carrusel/carrusel1.jpeg" class="d-block w-100" alt="mm1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/carrusel/carrusel2.jpeg" class="d-block w-100" alt="mm2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/carrusel/carrusel3.jpeg" class="d-block w-100" alt="mm3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/images/carrusel/carrusel4.jpeg" class="d-block w-100" alt="mm4">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselMM" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselMM" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        <!-- END CARRUSEL -->
+        </div>
+        <div class="row m-auto background-gray">
+            <h1 class="vibes-font text-center mt-5 mb-2">Nuestros hijos y padrinos</h1>
+            <div class="row text-center montserrat-font align-items-center">
+                <div class="col-12 col-md-6 my-4">
+                    <h6>ALEJANDRO BUENDIA ESCAMILLA<br>Y<br>MIGUEL ANGEL BUENDIA ESCAMILLA</h6>
+                    <P class="gray-font">Hijos</P>
+                </div>
+                <div class="col-12 col-md-6 my-4">
+                    <h6>PAUL RAMOS RAMIREZ<br>Y<br>SILVIA ESCAMILLA LUEVANO</h6>
+                    <P class="gray-font">Padrinos</P>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END NOSOTROS SECTION -->
+    <!-- CONFIRM SECTION -->
+    <section id="confirm" class="container-fluid background-dark-gray">
+        <div class="row">
+            <h1 class="vibes-font text-center mt-5 mb-3 text-white" style="font-size: 50px;">Confirmar Asistencia</h1>
+            <h5 class="text-white text-center montserrat-font mb-4">¿Nos confirmas?<br>Gracias</h5>
+            <div class="wa-button montserrat-font">
+                <i class="fa fa-whatsapp" aria-hidden="true"></i><a class="ms-1" target="_blank" href="https://wa.link/2s1joy">Confirmar asistencia</a>
+            </div>
+        </div>
+    </section>
+    <!-- END CONFIRM SECTION -->
+    <footer>
+        <div class="text-white align-self-end">
+            <h1 class="vibes-font text-center mt-5" style="font-size: 50px;">!Te esperamos!</h1>
+            <h3 class="vibes-font text-center mb-3">Nuestro amor puede hacer todo lo que nos propongamos.</h3>
+        </div>
+    </footer>
+    <!-- MODAL MAPS -->
+    <!-- Modal -->
+    <div class="modal fade" id="modalMaps1" tabindex="-1" aria-labelledby="modalMaps1Label" aria-hidden="true">
+        <div class="modal-dialog">
+          <div id="modalContent1" class="modal-content" style="display: none;">
+            <div class="modal-header">
+              <h5 class="modal-title montserrat-font" id="exampleModalLabel">CEREMONIA RELIGIOSA</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body montserrat-font">
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.8028019245085!2d-99.04976118537978!3d19.464067186866504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fb0d0abfb855%3A0xf782cbc875df669c!2sParroquia%20del%20Esp%C3%ADritu%20Santo!5e0!3m2!1ses-419!2smx!4v1649216550257!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h5 class="mt-2">PARROQUIA DEL ESPIRITU SANTO</h5>
+                <p>Cuándo: 22 de abril de 2022 18:45 hrs.<br>
+                Dirección: Bosques de España #31 D Fracc. Bosques de Aragón, Nezahualcóyotl, Edo. México; México</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-wedding montserrat-font" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+          <div id="modalContent2" class="modal-content" style="display: none;">
+            <div class="modal-header">
+              <h5 class="modal-title montserrat-font" id="exampleModalLabel">SALON</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body montserrat-font">
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.6234245590013!2d-99.05639148537966!3d19.47179628686209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fb0889ab3cd3%3A0x5e4175974a6a486d!2sSal%C3%B3n%20de%20Fiestas%20Terraza%20Mirage!5e0!3m2!1ses-419!2smx!4v1649216927550!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h5 class="mt-2">SALÓN TERRAZA "MIRAGE"</h5>
+                <p>Cuándo: 22 de abril de 2022 20:30 hrs.<br>
+                Dirección: Bosques de los Continentes #4, Bosques de Aragón, Nezahualcóyotl, Edo. México; México</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-wedding montserrat-font" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- END MODAL MAPS -->
+    <script type="text/javascript" src="./js/bootstrap-5.1.3/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/simplyCountdown.js-master/dist/simplyCountdown.min.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,196 @@
+/* MADE BY: ALEJANDRO BUENDIA ESCAMILLA*/
+/* "ESTO LO HAGO PA' DIVERTIRME"*/
+
+/* FUENTES */
+@font-face {
+    font-family: 'Great Vibes';
+    src: url('../assets/fonts/GreatVibes-Regular.ttf');
+}
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url('../assets/fonts/Montserrat-Medium.ttf');
+}
+
+.vibes-font {
+    font-family: 'Great Vibes';
+}
+.montserrat-font {
+    font-family: 'Montserrat-Medium';
+}
+/* GENERALES */
+*{
+    margin: 0px auto;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+}
+
+/* BARRA DE NAVEGACION */
+#nav {
+    background-color: bisque;
+}
+.menu {
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.item {
+    cursor: pointer;
+    font-family: 'Montserrat-Medium';
+    transition: all 300ms;
+    margin: 15px;
+}
+
+.item:hover{
+    transform: scale(1.2);
+}
+
+.nav-icon {
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
+
+.item-title {
+    font-family: 'Great Vibes';
+    font-size: 40px;
+}
+
+/* SECTION FOTOS PRINCIPAL */
+.photo1{
+    border-radius: 1.25rem !important;
+    margin: 0px auto;
+    box-shadow: 0px 0px 5px 1px black;
+    
+}
+
+#main-photo{
+    margin-top: 70px;
+    background-image: url('../assets/images/wedding-4.png');
+    background-size: 400px;
+    background-repeat: repeat;
+}
+
+
+.card-style p {
+    margin: 0px;
+}
+
+/* SECTION BANNER PHRASE */
+.banner-phrase {
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+    background-size: cover;
+    background-image: url('../assets/images/contadorFam.JPEG');
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 600px;
+}
+
+@media (max-width: 576px) {
+    .banner-phrase {
+        min-height: 400px;
+    }
+  }
+
+.phrase-box {
+    font-family: 'Great Vibes';
+    color: white;
+    text-shadow: 3px 5px 2px #474747;
+    font-size: 30px;
+}
+
+/* SECTION WHERE AND WHEN */
+.where-style {
+    margin-top: 30px;
+}
+
+.card-margin {
+    margin: initial;
+}
+
+.btn-wedding {
+    color: black;
+    background-color: bisque;
+    border-color: bisque;
+}
+
+.card-header {
+    background-color: bisque;
+}
+
+/* NOSOTROS SECTION */
+.background-gray {
+    background-color: #F9F9F9 !important;
+}
+
+.background-dark-gray {
+    background-color: #333 !important;
+}
+
+.gray-font {
+    color: #949494;
+}
+
+.icon-cross {
+    background: url('../assets/icons/cross.png');
+    width: 20px;
+    height: 24px;
+    display: inline-block;
+}
+
+/* CONFIRM SECTION */
+.wa-button {
+    text-align: center;
+    padding: 15px 10px;
+    background-color: #128C7E;
+    width: auto;
+    margin: 0px auto;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    width: 80%;
+    line-height: 24px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    text-shadow: 1px 1px 2px #331919;
+}
+
+.wa-button a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.wa-button a:hover{
+    text-decoration: underline;
+}
+
+.text-white {
+    color: white !important;
+}
+
+/* MODALES */
+.modal-header,.modal-body, .modal-footer, .modal-title{
+    margin: initial;
+}
+
+.mapa{
+    height: 300px;
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    height: 500px;
+    background-color: #F9F9F9;
+    background-image: url('../assets/images/piePagina.jpeg');
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
