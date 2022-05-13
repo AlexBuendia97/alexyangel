@@ -11,12 +11,30 @@
     src: url('../assets/fonts/Montserrat-Medium.ttf');
 }
 
+@font-face {
+    font-family: 'Neucha-Regular';
+    src: url('../assets/fonts/Neucha-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'CaveatBrush-Regular';
+    src: url('../assets/fonts/CaveatBrush-Regular.ttf');
+}
+
 .vibes-font {
     font-family: 'Great Vibes';
 }
 .montserrat-font {
     font-family: 'Montserrat-Medium';
 }
+.neucha-font {
+    font-family: 'Neucha-Regular';
+}
+
+.caveat-font {
+    font-family: 'CaveatBrush-Regular';
+}
+
 /* GENERALES */
 *{
     margin: 0px auto;
@@ -27,7 +45,8 @@
 
 /* BARRA DE NAVEGACION */
 #nav {
-    background-color: bisque;
+    background: rgb(228,90,181);
+    background: linear-gradient(90deg, rgba(228,90,181,1) 25%, rgba(71,203,228,1) 75%);
 }
 .menu {
     margin: 0px auto;
@@ -44,6 +63,7 @@
     font-family: 'Montserrat-Medium';
     transition: all 300ms;
     margin: 15px;
+    color: whitesmoke;
 }
 
 .item:hover{
@@ -56,8 +76,9 @@
 }
 
 .item-title {
-    font-family: 'Great Vibes';
+    font-family: 'Neucha-Regular';
     font-size: 40px;
+    color: whitesmoke;
 }
 
 /* SECTION FOTOS PRINCIPAL */
@@ -69,24 +90,40 @@
 }
 
 #main-photo{
-    margin-top: 70px;
-    background-image: url('../assets/images/wedding-4.png');
+    margin-top: 120px;
+    background-color: #ececec;
     background-size: 400px;
     background-repeat: repeat;
 }
 
+.font-white {
+    color: whitesmoke;
+}
+
+#main-photo > div {
+    background: linear-gradient(90deg, rgba(228,90,181,1) 25%, rgba(71,203,228,1) 75%);
+}
+
+.fondo1{
+    background-image: url('../assets/images/fondo-comunion.jpeg');
+}
+
+.fondo2{
+    background-image: url('../assets/images/fondo-cumple.jpeg');
+}
 
 .card-style p {
     margin: 0px;
+    display: inline;
 }
 
 /* SECTION BANNER PHRASE */
 .banner-phrase {
     display: flex;
     justify-content: end;
-    margin-top: 50px;
+    margin-top: 30px;
     background-size: cover;
-    background-image: url('../assets/images/contadorFam.JPEG');
+    background-image: url('../assets/images/fotoTiempo.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     min-height: 600px;
@@ -99,7 +136,7 @@
   }
 
 .phrase-box {
-    font-family: 'Great Vibes';
+    font-family: 'CaveatBrush-Regular';
     color: white;
     text-shadow: 3px 5px 2px #474747;
     font-size: 30px;
@@ -108,6 +145,23 @@
 /* SECTION WHERE AND WHEN */
 .where-style {
     margin-top: 30px;
+    background-color: #fab1d0;
+}
+
+.title-shadow{
+    text-shadow: 3px 5px 2px #474747;
+}
+
+.text-shadow{
+    text-shadow: 0px 3px 3px #474747;
+}
+
+.boy-color {
+    color: rgba(71,203,228,1);
+}
+
+.girl-color {
+    color: rgba(228,90,181,1);
 }
 
 .card-margin {
@@ -116,15 +170,19 @@
 
 .btn-wedding {
     color: black;
-    background-color: bisque;
-    border-color: bisque;
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
 }
 
 .card-header {
-    background-color: bisque;
+    background-color: #0dcaf0;
 }
 
 /* NOSOTROS SECTION */
+.background-blue {
+    background-color: #0dcaf0;
+}
+
 .background-gray {
     background-color: #F9F9F9 !important;
 }
@@ -189,7 +247,7 @@ footer {
     display: flex;
     height: 500px;
     background-color: #F9F9F9;
-    background-image: url('../assets/images/piePagina.jpeg');
+    /* background-image: url('../assets/images/piePagina.jpeg'); */
     background-size: auto;
     background-repeat: no-repeat;
     background-position: center;

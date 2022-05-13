@@ -17,9 +17,9 @@ const modalContent2 = document.querySelector('#modalContent2');
 
 simplyCountdown(myElement, {
     year: 2022, // required
-    month: 4, // required
-    day: 22, // required
-    hours: 20, // Default is 0 [0-23] integer
+    month: 6, // required
+    day: 18, // required
+    hours: 16, // Default is 0 [0-23] integer
     minutes: 0, // Default is 0 [0-59] integer
     seconds: 0, // Default is 0 [0-59] integer
     words: { //words displayed into the countdown
