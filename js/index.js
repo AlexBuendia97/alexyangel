@@ -46,7 +46,7 @@ simplyCountdown(myElement, {
 });
 
 function scrollIntoViewOffset(element) {
-    let headerOffset = 75;
+    let headerOffset = 70;
     let elPosition = element.getBoundingClientRect().top;
     let offsetPosition = elPosition + window.pageYOffset - headerOffset;
     window.scrollTo({

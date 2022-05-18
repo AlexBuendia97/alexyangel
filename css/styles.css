@@ -76,7 +76,6 @@
 }
 
 .item-title {
-    font-family: 'Neucha-Regular';
     font-size: 40px;
     color: whitesmoke;
 }
@@ -90,14 +89,14 @@
 }
 
 #main-photo{
-    margin-top: 120px;
+    margin-top: 70px;
     background-color: #ececec;
     background-size: 400px;
     background-repeat: repeat;
 }
 
 .font-white {
-    color: whitesmoke;
+    color: whitesmoke !important;
 }
 
 #main-photo > div {
@@ -245,10 +244,10 @@
 /* Footer */
 footer {
     display: flex;
-    height: 500px;
+    height: 350px;
     background-color: #F9F9F9;
-    /* background-image: url('../assets/images/piePagina.jpeg'); */
-    background-size: auto;
+    background-image: url('../assets/images/piePagina.jpeg');
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
